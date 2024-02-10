@@ -164,6 +164,14 @@ const Register = () => {
                 placeholder="City"
                 required
               />
+              <input
+                className="input-field"
+                type="text"
+                name="city"
+                id="city"
+                placeholder="City"
+                required
+              />
             </div>
             <div className="flex flex-col space-y-2 mt-2">
               <span className="text-sm">Select Domains:</span>
