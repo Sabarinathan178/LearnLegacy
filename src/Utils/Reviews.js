@@ -59,7 +59,7 @@ const Reviews = [
     bio: "Business & Mindset",
     img: kani,
     description:
-      "Elevate your entrepreneurial spirit with our Business and Mindset Workshop.Unlock your potential and shape your future with Learn Legacy ",
+      "Elevate your entrepreneurial spirit with our Business and Mindset Workshop. Gain valuable insights and strategies to thrive in the business world.",
     rating: 5.0,
   },
   {
