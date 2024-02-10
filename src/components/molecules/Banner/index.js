@@ -20,6 +20,10 @@ const Banner = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+  const RegisterButtonClick = () => {
+    // Navigate to the desired URL
+    window.location.href = "/register"; // Replace '/your-url' with the actual URL you want to navigate to
+  };
   return (
     // <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between mt-8">
     <div
@@ -52,7 +56,7 @@ const Banner = () => {
             sequence={[
               "We do Artificial Intelligence",
               2500,
-              "We do Full-stack Development",
+              "We do Full-stack Dev",
               2500,
               "We do UI/UX Design",
               2500,
@@ -62,7 +66,7 @@ const Banner = () => {
               2500,
               "We do Networking",
               2500,
-              "We do Business and Mindset",
+              "We do Business Mindset",
               2500,
               "We do Java SpringBoot",
               2500,
@@ -89,13 +93,17 @@ const Banner = () => {
         {/* <span className="text-primary font-bold">
           Free Online Workshop: <br /> Feb 26 - Mar 5, 5 PM to 7 PM.
         </span> */}
-        <div className="relative p-4">
+        <div className="relative p-4 -mt-2">
           <div className="absolute inset-0 bg-gray-900 opacity-30 "></div>
-          <span className="text-neutral-400  font-bold text-2xl relative z-10 ">
+          <span
+            className={`text-neutral-400  font-bold relative z-10 ${
+              window.innerWidth > 770 ? "text-2xl" : "text-4lg "
+            } `}
+          >
             Free Online Workshop <br /> Feb 26 - Mar 5, 5 PM to 7:30 PM.
           </span>
           <button className="primary-button mt-2 text-sm">
-            <span>Register Now</span>
+            <span onClick={RegisterButtonClick}>Register Now</span>
           </button>
         </div>
 

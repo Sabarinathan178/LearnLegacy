@@ -65,7 +65,13 @@ export default function Navbar() {
       <div className="w-full flex items-center justify-between px-3 md:px-24 py-3">
         <div className="flex items-center">
           <Link to="/">
-            <img src={logo} alt="Logo" className="h-24 mt-2 -ml-4 mr-2" />{" "}
+            <img
+              src={logo}
+              alt="Logo"
+              className={`h-24 mt-1 mr-2 ${
+                window.innerWidth > 770 ? "-ml-16 w-full" : "-ml-6"
+              }`}
+            />{" "}
             {/* Adjust the height as needed */}
             {/* Alternatively, you can use text instead of an image */}
             {/* <h1 className="text-2xl text-primary font-lobster">Learn Legacy</h1> */}

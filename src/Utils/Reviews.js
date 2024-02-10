@@ -3,6 +3,10 @@ import sabari from "../assets/sabarid.jpg";
 import dhanabal from "../assets/dhanabal.jpeg";
 import vishnu from "../assets/vishnuprabhu.jpg";
 import arul from "../assets/arul.jpeg";
+import kani from "../assets/kanid.jpg";
+import thoufi from "../assets/thoufid.jpeg";
+import shash from "../assets/shashd.jpeg";
+import shesha from "../assets/sheshad.jpeg";
 
 const Reviews = [
   {
@@ -11,8 +15,7 @@ const Reviews = [
     bio: "Spring & Springboot",
     img: sudhakar,
     description:
-      "I am an enthusiastic B.Tech student passionate about backend development, fostering a positive mindset.", //, and creating impactful solutions
-    rating: 5.0,
+      "Backend enthusiast driven by a passion for developing robust solutions. Dedicated to cultivating a positive mindset.",
   },
   {
     id: 2,
@@ -52,38 +55,38 @@ const Reviews = [
   },
   {
     id: 6,
-    name: "kani",
-    bio: "Blockchain",
-    img: arul,
+    name: "Kanishkar",
+    bio: "Business & Mindset",
+    img: kani,
     description:
-      "Web3 Developer,Certified Blockchain Associate,Ambassador @EmergeX, Member @KBAIC, Blockchain Enthusiast. ",
+      "Elevate your entrepreneurial spirit with our Business and Mindset Workshop.Unlock your potential and shape your future with Learn Legacy ",
     rating: 5.0,
   },
   {
     id: 7,
-    name: "shashwin",
-    bio: "Blockchain",
-    img: arul,
+    name: "Sashwin",
+    bio: "Cybersecurity",
+    img: shash,
     description:
-      "Web3 Developer,Certified Blockchain Associate,Ambassador @EmergeX, Member @KBAIC, Blockchain Enthusiast. ",
+      "Cybersecurity enthusiast passionate about protecting digital assets and enhancing security resilience through proactive measures. ",
     rating: 5.0,
   },
   {
     id: 8,
-    name: "shesha",
-    bio: "Blockchain",
-    img: arul,
+    name: "Sheshadri",
+    bio: "Express & Node js",
+    img: shesha,
     description:
-      "Web3 Developer,Certified Blockchain Associate,Ambassador @EmergeX, Member @KBAIC, Blockchain Enthusiast. ",
+      "Passionate backend developer specializing in Express and Node.js, committed to building scalable and robust server-side applications to drive business succes. ",
     rating: 5.0,
   },
   {
     id: 9,
-    name: "thoufic",
-    bio: "Blockchain",
-    img: arul,
+    name: "Syed Thoufic",
+    bio: "Networking",
+    img: thoufi,
     description:
-      "Web3 Developer,Certified Blockchain Associate,Ambassador @EmergeX, Member @KBAIC, Blockchain Enthusiast. ",
+      "I'm a aspiring learner about networking and wishing to bloom on the field of networking. ",
     rating: 5.0,
   },
 ];
